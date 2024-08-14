@@ -6,9 +6,8 @@ document.getElementById('login-form').addEventListener('submit', function(event)
 
     if (email === "" || password === "") {
         alert("Please fill in both fields.");
-        return;
+    } else {
+        // Allow form submission if validation passes
+        this.submit();
     }
-
-    // Here you can add further validation or API calls.
-    alert("Logging in...");
 });
